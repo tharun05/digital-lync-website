@@ -322,7 +322,9 @@ a {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-
+#index-logoBrand {
+    height: 47px !important;
+}
 #logoBrand-black {
     height: 53px;
     width: 133px;
