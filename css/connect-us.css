@@ -1,0 +1,180 @@
+/*connect page styling*/
+
+.upload-drop-zone {
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    text-align: center;
+}
+
+.upload-drop-zone {
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+.details {
+    background-color: #F9F9F9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.details label,
+.details p {
+    color: #EE6F4A;
+}
+
+#submit {
+    margin: auto;
+    width: 300px;
+    background-color: #EC5528;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 6px 6px 11px 3px lightgrey;
+}
+
+@media only screen and (min-width: 794px) {
+    .indianaddress img,
+    .reachus img {
+        margin-top: 135px;
+        float: right;
+    }
+}
+
+@media only screen and (width: 1024px) {
+    #imgtop {
+        margin-top: 162px !important;
+        float: right !important;
+    }
+}
+
+.ovrflhdn {
+    overflow: hidden;
+}
+
+#imgtop {
+    margin-top: 133px;
+}
+
+.addressshadow {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 4px 3px 15px 1px lightgrey;
+}
+
+.addressshadow h2 {
+    color: #EC5528;
+}
+
+.addressshadow address {
+    color: #000000;
+}
+
+.addresses {
+    padding: 35px;
+}
+
+.imgright {
+    float: right;
+    padding: 0px;
+}
+
+.registration input:focus,
+.registration input,
+.registration textarea {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -moz-box-shadow: 0 0 0 1000px white inset !important;
+    box-shadow: 0 0 0 1000px white inset !important;
+}
+
+.registration textarea:focus {
+    padding-bottom: 4px;
+}
+
+.registration input,
+.registration textarea {
+    display: block;
+    width: 100%;
+    padding: 0.1em 0em 1px 0em;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #aaa;
+    outline: none;
+    margin: 0px;
+    background: none;
+}
+
+.registration input::-webkit-input-placeholder,
+.registration textarea::-webkit-input-placeholder {
+    color: #EC5528;
+}
+
+.registration input::-moz-placeholder {
+    color: #EC5528;
+}
+
+.registration textarea::-moz-placeholder {
+    color: #EC5528 !important;
+}
+
+.connect,
+.connect:hover {
+    width: 35%;
+    padding: 15px;
+    background-color: #EC5528;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.mapsection iframe {
+    width: 100%;
+}
+
+.mapsection {
+    padding: 18px;
+}
+
+
+/*end of the connect page styling*/
+
+.form-group input[type='text'],
+input[type='email'] {
+    border-radius: 0px;
+    height: 40px;
+    border-color: lightgrey;
+}
+
+.mission-content {
+    font-size: 14px;
+}
+
+.font-size20 {
+    font-size: 20px;
+}
+
+.mission {
+    width: 50%;
+}
+
+.nav-below {
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.mission-image {
+    position: absolute;
+    width: 117px;
+    height: 110px;
+    right: 0px;
+    bottom: 0px;
+}

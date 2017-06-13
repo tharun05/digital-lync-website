@@ -1,0 +1,309 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: lighter !important;
+}
+
+.mean-image {
+    margin: auto;
+    padding-top: 20px;
+    width: 50%;
+}
+
+.section-padding {
+    padding: 30px;
+}
+
+#header {
+    background-color: #fff;
+    color: #000;
+}
+
+.nav>li>a {
+    margin-right: 20px;
+    color: black;
+}
+
+.nav>li>a:hover {
+    margin-right: 20px;
+    color: steelblue;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-headers {
+    margin-top: 83px;
+}
+
+.list-align ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 6px;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.mean-image img {
+    height: 70px;
+    margin: auto;
+    padding: 10px;
+}
+
+.course-quest {
+    background-color: #f9f9f9;
+}
+
+.course-quest p {
+    color: grey;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica;
+}
+
+.shadow {
+    box-shadow: 2px 2px 6px rgba(50, 50, 50, 0.75);
+    padding: 18px;
+    border-radius: 8px;
+}
+.shadow img{
+    height: 120px;
+    width: 130px;
+}
+
+.outer {
+    width: 1px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.inner {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background: grey;
+    top: 30%;
+    box-shadow: 0px 0px 30px 20px grey;
+}
+
+.btn-enroll {
+    width: 100px;
+    background-color: #EC5528;
+    color: #fff;
+    height: 48px;
+    width: 120px;
+    border-radius: 3px;
+    margin: auto;
+    box-shadow: 2px 2px 7px rgba(50, 50, 50, 0.75);
+    padding: 14px 10px;
+}
+
+.btn-enroll a {
+    color: #fff;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica;
+    padding: 30px 0px 10px 10px;
+    text-decoration: none;
+}
+
+#courses-logoBrand-black {
+    margin-top: 6px;
+}
+
+.cap-list>li>a:focus,
+.cap-list>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.cap-list .open>a,
+.cap-list .open>a:focus,
+.cap-list .open>a:hover {
+    background-color: transparent !important;
+    border-color: #337ab7;
+    font-family: "Helvetica Neue", Helvetica;
+}
+
+.cap-padding {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.program-syllabus {
+    width: 90%;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #EC5528;
+}
+
+#style-1 h6 {
+    color: #EC5528;
+    font-family: 'Roboto', sans-serif;
+   
+    font-weight: bold;
+}
+
+.program-block{
+    background-color: #FFF9F9;
+}
+.programs{
+    width: 80%;
+}
+.cirricullam-heading h6{
+     color: #EC5528;
+    font-family: 'Roboto', sans-serif;
+   
+    font-weight: bold;
+}
+.cirricullam-heading p{
+    color: #000;
+}
+.course-padding{
+   margin: 20px;
+}
+
+.shadow{
+    box-shadow: 2px 2px 7px rgba(50, 50, 50, 0.75);
+}
+
+
+
+::-webkit-input-placeholder {
+  color: #fff;
+  padding: 8px;
+}
+::-moz-placeholder { 
+  color: #fff;
+}
+:-ms-input-placeholder { 
+  color: #fff;
+}
+:-moz-placeholder { 
+  color: #fff;
+}
+.list-unstyled{
+    padding-top: 20px;
+}
+hr{
+    color: #000;
+}
+.list-padding ul li{
+    padding-top: 0px;
+}
+.list-padding p{
+    color: #000;
+}
+/* 6 ------- Subscribe Section Styles ---------*/
+
+.subscribe-section{
+    background-color: #ec5528;
+    padding: 30px;
+}
+.subscribe-section .section-description {
+    color: #ffffff;
+    padding: 0px 20%;
+}
+.subscribe-hide {
+    padding-top: 30px;
+    position: relative;
+}
+.subscribe input {
+    border: 1px solid #ffffff;
+    background: transparent;
+    border-radius: 0px;
+    color: #ffffff;
+    display: inline-block;
+    height: 48px;
+    max-width: 450px;
+    padding: 15px 55px 15px 15px;
+}
+.subscribe input:focus {
+    border: 2px solid #ffffff;
+    outline: 0;
+}
+.subscribe button:focus {
+    border: none;
+    outline: 0;
+}
+#subscribe-submit {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    display: inline-block;
+    padding: 13px 40px;
+    margin-top: -3px;
+    margin-left: -5px;
+}
+#subscribe-loading {
+    display: none;
+    line-height: 45px;
+    cursor: inherit;
+}
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #ec5528 ;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+.profile-circle img{
+    height: 100px;
+    width:100px;
+    border-radius: 100%;
+}
