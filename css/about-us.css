@@ -1,0 +1,75 @@
+.padding10 {
+    padding: 10px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.mission-content {
+    font-size: 14px;
+}
+
+.font-size20 {
+    font-size: 20px;
+}
+
+.mission {
+    width: 50%;
+}
+
+.nav-below {
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.mission-image {
+    position: absolute;
+    width: 182px;
+    height: 149px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.about-us ul>li>a {
+    color: black;
+}
+@media only screen and (min-width: 1200px) {
+    .control-box .lft {
+        float: left;
+        position: absolute;
+        right: 1110px;
+        top: 100px;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        box-shadow: 0px 4px 9px 2px lightgrey;
+    }
+     .control-box .lft a{
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        padding:8px 0px 0px 2px;
+     }
+    .control-box .rght {
+        float: right;
+        position: absolute;
+        left: 1150px;
+        top: 100px;
+         height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        box-shadow: 0px 4px 9px 2px lightgrey;
+    }
+    .control-box .rght a{
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        padding:8px 0px 0px 2px;
+     }
+}
+@media only screen and (max-width: 768px) {
+    .crouselsection {
+        text-align: center;
+    }
+}

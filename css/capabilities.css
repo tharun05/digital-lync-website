@@ -1,0 +1,356 @@
+/*--------------- Body ------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+    #navbar {
+        background-color: white;
+    }
+}
+
+
+/*--------------- wrapper --------------------*/
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+
+/*--------------- colors ---------------------*/
+
+.blue {
+    color: #3fb1c3;
+}
+
+.green {
+    color: #81be42;
+}
+
+.red {
+    color: #f0592c;
+}
+
+.yellow {
+    color: #fcb615;
+}
+
+
+/* -------------- font-sizes ------------------*/
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 27px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.orange {
+    color: rgb(255, 165, 0);
+}
+
+.common-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blog .post-content {
+    padding: 22px 15px;
+}
+
+.blog .entry-title {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.blog .entry-title a {
+    color: #333333;
+}
+
+.blog .entry-title a:hover {
+    color: #e74c3c !important;
+}
+
+p,
+a {
+    font-size: 15px;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+
+/*stcky navbar*/
+
+.nav-top {
+    min-height: 30px !important;
+    text-align: center;
+    background-color: #60646d;
+    padding: 8px;
+    color: white;
+}
+
+.nav-top h5,
+p {
+    color: #bbbfc9;
+}
+
+.nav-top span {
+    color: white;
+}
+
+.more {
+    padding: 6px 12px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-top {
+        height: 60px;
+        padding-top: 14px;
+    }
+    .mediaInvisible {
+        display: none;
+    }
+}
+
+.navbar-header span {
+    color: black;
+    background-color: black;
+}
+
+.navbar-header button {
+    border: 1px solid black;
+}
+
+.parent-container {
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+.child-container {
+    align-self: center;
+    border-radius: 8px;
+}
+
+
+/*
+* Style tweaks
+* --------------------------------------------------
+*/
+
+.nv-top {
+    background-color: transparent;
+}
+
+.black,
+.black>span {
+    color: black;
+    border: 1px solid black;
+}
+
+
+/*
+ * Custom styles
+ */
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: white !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    color: black !important;
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+
+/*.withoutshrink img{
+  margin-top: -31px;height:75px; width:120px;
+}*/
+
+.shrink {
+    height: 53px;
+    width: 133px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container {
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+}
+
+.nav>li>a {
+    color: #000;
+}
+.nav>li>a:hover {
+    color: #000;
+    color: steelblue;
+}
+
+.fixed-theme .navbar-collapse ul li a {
+    color: black !important;
+}
+
+.container .navbar-container .fixed-theme .main-menu ul li a {
+    color: black !important;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: transparent !important;
+    border-color: #337ab7;
+    font-family: "Helvetica Neue", Helvetica;
+}
+
+#brand img {
+    width: 169px;
+}
+
+.cap-padding {
+    padding-top: 60px;
+    font-size: 40px;
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica;
+}
+
+
+/*.fixed-theme #brand img {
+    background-image: url(images/digi-blk.png);
+    display: none;
+}
+.fixed-theme #brand {
+    background-image: url(images/digi-blk.png);
+}*/
+
+.display-none {
+    display: none;
+}
+
+.section-top {
+    padding: 18px 0px;
+}
+
+.section-description {
+    color: black;
+    font-size: 17px;
+}
+
+#header {
+    background-color: transparent;
+    color: #fff;
+}
+
+.post-thumbnail .caption {
+    position: absolute;
+    top: 100px;
+    left: 68px;
+}
+
+.post-thumbnail .caption a {
+    color: #fff;
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.type-post {
+    border-radius: 24px;
+}
+
+.post-thumbnail img {
+    width: 100%
+}
+
+.section-padding {
+    padding: 40px;
+}
+
+.para-style {
+    font-family: "Helvetica Neue", Helvetica;
+    color: #000000;
+    font-size: 20px;
+}
+
+.design-padding {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.common-button {
+    border: 2px solid #000;
+    width: 180px;
+    height: 54px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.common-button a {
+    color: #000;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica;
+    padding: 14px 0px 0px 40px;
+}
+
+.stack-bk-color {
+    background-color: #FFFaFa;
+}
+
+.footer-para {
+    margin-bottom: 15px;
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 20px;
+}
