@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
     <title>Home | Digital-lync</title>
     <script type="text/javascript" src="angular.js"></script>
     <!-- Bootstrap -->
@@ -314,7 +313,7 @@ ion-top -->
                     </div>
                     <div class="col-sm-3">
                         <h6>Contact Us</h6>
-                        <form action="/api/contact-us" method="post">
+                        <form action="https://script.google.com/macros/s/AKfycbwwop37t3G5wF8gI0hDJ_u2G7tacDIC4qQyEvNmmM26T8AnTpM/exec" method="post">
                             <fieldset>
                                 <div class="form-group">
                                     <label>Name:</label>
@@ -328,7 +327,7 @@ ion-top -->
                                     <label>Message:</label>
                                     <input type="text" name="message" class="form-control" required placeholder="Message">
                                 </div>
-                                <button type="submit" class="btn btn-default">Send</button>
+                             <button type="submit" class="btn btn-default" onclick="handleFormSubmit()">Send</button>
                             </fieldset>
                         </form>
                     </div>
