@@ -318,7 +318,7 @@ a {
 
 #brand img {
     width: 159px;
-    height: 47px;
+    height: 55px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -356,9 +356,11 @@ a {
     color: black;
     font-size: 17px;
 }
-.section-padding{
+
+.section-padding {
     padding: 30px;
 }
+
 
 /*--------------- footer ---------------------*/
 

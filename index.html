@@ -6,16 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    
     <title>Home | Digital-lync</title>
-    <script type="text/javascript" src="angular.js"></script>
     <!-- Bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.js"></script>
 </head>
 
 <body>
@@ -34,14 +32,14 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right main-menu text-center">
                     <li class="dropdown active">
-                        <a href="views/digital-academy.html" class="dropdown-toggle current">Digital Academy</a>
+                        <a href="views/digital-academy.html" class="dropdown-toggle current">Academy</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company</a>
                         <ul class="dropdown-menu" id="hoverclr">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Digital Collab Us</a></li>
-                            <li><a href="#"> Products</a></li>
+                            <li><a href="views/about-us">About Us</a></li>
+                            <li><a href="views/collab.html">Digital Collab Us</a></li>
+                            <li><a href="views/product.html"> Products</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -296,10 +294,10 @@ ion-top -->
                         <p><span class="head">Email:</span> info@digital-lync.com</p>
                         <h6>Connect</h6>
                         <ul class="list-unstyled social">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com/lyncdigital/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/lyncdigital/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/lyncdigital"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
@@ -308,13 +306,13 @@ ion-top -->
                         <ul class="list-unstyled links">
                             <li><a href="views/capabilities.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Capabilities</a></li>
                             <li><a href="index.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Company</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Blog</a></li>
+                            <li><a href="http://lyncschool.blogspot.in/"><i class="fa fa-angle-right" aria-hidden="true"></i>Blog</a></li>
                             <li><a href="views/connect.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Connect</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3">
                         <h6>Contact Us</h6>
-                        <form action="/api/contact-us" method="post">
+                        <form action="https://script.google.com/macros/s/AKfycbwwop37t3G5wF8gI0hDJ_u2G7tacDIC4qQyEvNmmM26T8AnTpM/exec" method="post">
                             <fieldset>
                                 <div class="form-group">
                                     <label>Name:</label>
@@ -328,13 +326,18 @@ ion-top -->
                                     <label>Message:</label>
                                     <input type="text" name="message" class="form-control" required placeholder="Message">
                                 </div>
-                                <button type="submit" class="btn btn-default">Send</button>
+                                <a href="index.html">
+                                    <button type="submit" class="btn btn-default">Send</button>
+                                </a>
                             </fieldset>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div style="display: none" id="thankyou_message">
+        <h2>We will contact you soon</h2>
     </div>
     <script>
     $(document).ready(function() {
@@ -354,6 +357,7 @@ ion-top -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 
 </html>
