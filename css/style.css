@@ -88,6 +88,10 @@ li {
     list-style-type: none;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .orange {
     color: rgb(255, 165, 0);
 }
@@ -322,9 +326,11 @@ a {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
 #index-logoBrand {
     height: 47px !important;
 }
+
 #logoBrand-black {
     height: 53px;
     width: 133px;
@@ -1721,3 +1727,7 @@ input {
 }
 
 /*end of digital-collab*/
+.course-banner {
+    color: white !important;
+    padding: 100px;
+}
