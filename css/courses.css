@@ -3,11 +3,6 @@ body {
     font-weight: lighter !important;
 }
 
-.mean-image {
-    margin: auto;
-    padding-top: 20px;
-    width: 50%;
-}
 .mean-image ul li{
     float: left;
     cursor: pointer;
@@ -361,4 +356,32 @@ hr{
 .course-heading{
     color: #ec5528 !important;
     font-size: 30px;
+}
+.mean-image {
+    margin: auto;
+    padding-top: 20px;
+    width: 50%;
+}
+#game-icon-list {
+    margin: auto;
+    padding-top: 20px;
+    width: 30%;
+}
+
+#mobile-icon-list {
+    margin: auto;
+    padding-top: 20px;
+    width: 18%;
+}
+
+#python-icon-list {
+    margin: auto;
+    padding-top: 20px;
+    width: 25%;
+}
+
+#visual-icon-list {
+    margin: auto;
+    padding-top: 20px;
+    width: 25%;
 }
