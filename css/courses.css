@@ -321,7 +321,7 @@ hr{
 .course-navbar-container{
     padding: 10px 0px 10px 0px;
 }
-.download-curriculam:hover{
+.download-curriculum:hover{
    color: #ec5528;
    text-decoration: none;
 }
@@ -334,7 +334,7 @@ hr{
     padding-top: 10px;
     box-shadow: 6px 6px 11px 3px lightgrey;
 }
-.btn-download-Curricullam {
+.btn-download-Curriculum {
     width: 100px;
     background-color: #EC5528 ;
     color: #fff;
@@ -342,11 +342,12 @@ hr{
     width: 200px;
     border-radius: 3px;
     margin: auto;
+    cursor: pointer;
     box-shadow: 2px 2px 7px rgba(50, 50, 50, 0.75);
     padding: 9px 10px;
 }
 
-.btn-download-Curricullam a {
+.btn-download-Curriculum a {
     color: #fff;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica;
