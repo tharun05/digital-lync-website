@@ -37,7 +37,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company</a>
                         <ul class="dropdown-menu" id="hoverclr">
-                             <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
                             <li><a href="collab.html">Digital Collab</a></li>
                             <li><a href="product.html"> Products</a></li>
                         </ul>
@@ -51,11 +51,17 @@
                     <li class="dropdown">
                         <a href="connect.html" class="dropdown-toggle vagdevimainmenu">CONNECT</a>
                     </li>
-                     <li class="dropdown social-icons">
+                    <li class="dropdown social-icons">
                         <ul id="social-icons-black">
-                            <li><a href="https://www.facebook.com/digitallync/"><img class="img-responsive icon-box19" src="../images/facebook-black.png"></a></li>
-                            <li><a href="https://twitter.com/digitallync/"><img class="img-responsive icon-box19" src="../images/twitter-black.png"></a></li>
-                            <li><a href="https://www.linkedin.com/company-beta/10702035/"><img class="img-responsive icon-box19" src="../images/linkedIn-black.png"></a></li>   
+                            <li>
+                                <a href=""><img class="img-responsive" src="../images/facebook-black.png"></a>
+                            </li>
+                            <li>
+                                <a href=""><img class="img-responsive" src="../images/twitter-black.png"></a>
+                            </li>
+                            <li>
+                                <a href=""><img class="img-responsive" src="../images/linkedIn-black.png"></a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -77,45 +83,45 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <form action="https://script.google.com/macros/s/AKfycbwwop37t3G5wF8gI0hDJ_u2G7tacDIC4qQyEvNmmM26T8AnTpM/exec" method="post">
+                    <form action="../scripts/fullContactForm.php" method="post">
                         <div class="col-md-12 col-sm-12 ">
                             <div class="form-group col-md-6 col-sm-6">
-                                <label for="name">Name* </label>
-                                <input type="text" class="form-control " id="name" required>
+                                <label for="name">FirstName* </label>
+                                <input type="text" class="form-control " id="name" name="fname" required>
                             </div>
                             <div class="form-group col-md-6 col-sm-6">
-                                <label for="firstname">FirstName* </label>
-                                <input type="text" class="form-control " id="fname" required>
+                                <label for="firstname">LastName* </label>
+                                <input type="text" class="form-control " id="fname" name="lname" required>
                             </div>
                             <div class="form-group col-md-6 col-sm-6">
                                 <label for="email">Email*</label>
-                                <input type="email" class="form-control " id="email" required>
+                                <input type="email" class="form-control " id="email" name="email" required>
                             </div>
                             <div class="form-group col-md-6 col-sm-6">
                                 <label for="mobile">Mobile Number</label>
-                                <input type="text" class="form-control " id="mobile" required>
+                                <input type="text" class="form-control " id="mobile" name="mobile" required>
                             </div>
                             <div class="form-group col-md-6 col-sm-6">
                                 <label for="city">City*</label>
-                                <input type="text" class="form-control " id="city" required>
+                                <input type="text" class="form-control " id="city" name="city" required>
                             </div>
                             <div class="form-group col-md-6 col-sm-6">
                                 <label for="state">State*</label>
-                                <input type="text" class="form-control" id="state" required>
+                                <input type="text" class="form-control" id="state" name="state" required>
                             </div>
                             <div class="form-group col-md-6 col-sm-6">
                                 <label for="address">Address*</label>
-                                <textarea class="form-control input-sm" id="address" rows="3" required></textarea>
+                                <textarea class="form-control input-sm" id="address" name="address" rows="3" required></textarea>
                             </div>
-                            <div class="form-group col-md-6 col-sm-6">
+                            <!-- <div class="form-group col-md-6 col-sm-6">
                                 <div class="upload-drop-zone" id="drop-zone">
                                     <p>Drag and drop or click here</p>
                                     <input type="file" name="files[]" id="js-upload-files" multiple>
                                     <p>to upload your Resume</p>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="col-md-12 text-center">
-                                <button type="submit" id="submit" class="btn btn-warning">SEND</button>
+                                <button type="submit" id="submit" name="submit" class="btn btn-warning">SEND</button>
                             </div>
                         </div>
                     </form>
@@ -163,9 +169,9 @@
             <div class="col-md-12">
                 <div class="col-md-4">
                     <h3 style="color: #EC5528">Get in Touch</h3>
-                    <form action="https://script.google.com/macros/s/AKfycbwwop37t3G5wF8gI0hDJ_u2G7tacDIC4qQyEvNmmM26T8AnTpM/exec" method="post">
+                    <form action="../scripts/basicContactForm.php" method="post">
                         <div class="form-group">
-                            <input class="form-control" type="text" name="name" id="name" placeholder="NAME" required>
+                            <input class="form-control" type="text" name="sname" id="name" placeholder="NAME" required>
                         </div>
                         <div class="form-group">
                             <input class="form-control" type="text" name="email" id="email" placeholder="YOUR EMAIL" required>
@@ -173,12 +179,12 @@
                         <div class="form-group ">
                             <input class="form-control" type="text" name="mobile" id="number" value="" placeholder="phone" required>
                         </div>
-                        <div class="form-group ">
+                        <!-- <div class="form-group ">
                             <textarea placeholder="message" required>
                             </textarea>
-                        </div>
+                        </div> -->
                         <div class="col-md-12 text-center">
-                            <button type="submit" class=" connect btn btn-warning">Connect</button>
+                            <input type="submit" name="submit" class="connect btn btn-warning"></input>
                         </div>
                     </form>
                 </div>
@@ -189,73 +195,73 @@
         </div>
     </section>
     <div class="footer">
-    <div class="footer-padding">
-        <div class="footer-links">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h6>ADDRESS</h6>
-                    <font color="orange"><strong>Digital Lync</strong></font>
-                    <br>
-                    <em>1 Hallidie Plaza<br>
+        <div class="footer-padding">
+            <div class="footer-links">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h6>ADDRESS</h6>
+                        <font color="orange"><strong>Digital Lync</strong></font>
+                        <br>
+                        <em>1 Hallidie Plaza<br>
                                 Suite 404B,<br>
                                 San Francisco,<br>
                                 California, 94102.</em>
-                    <p></p>
-                    <p>
-                        <font color="orange"><strong>Digital Lync</strong></font>
-                        <br>
-                        <em>Khajaguda, Naga Hills Rd,<br>
+                        <p></p>
+                        <p>
+                            <font color="orange"><strong>Digital Lync</strong></font>
+                            <br>
+                            <em>Khajaguda, Naga Hills Rd,<br>
                                     Madhura Nagar Colony,<br>
                                     Gachibowli,<br>
                                     Hyderabad,<br>
                                     Telangana, 500008</em></p>
-                </div>
-                <div class="col-sm-3">
-                    <h6>Reach</h6>
-                    <p><span class="head">Mobile[IN]:</span> +91 70931 41616</p>
-                    <p><span class="head">Mobile[USA]:</span> +1 (415)839-2126</p>
-                    <p><span class="head">Email:</span> info@digital-lync.com</p>
-                    <h6>Connect</h6>
-                    <ul class="list-unstyled social">
-                        <li><a href="https://www.facebook.com/digitallync/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="https://twitter.com/digitallync/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6>Reach</h6>
+                        <p><span class="head">Mobile[IN]:</span> +91 70931 41616</p>
+                        <p><span class="head">Mobile[USA]:</span> +1 (415)839-2126</p>
+                        <p><span class="head">Email:</span> info@digital-lync.com</p>
+                        <h6>Connect</h6>
+                        <ul class="list-unstyled social">
+                            <li><a href="https://www.facebook.com/lyncdigital/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/lyncdigital/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company-beta/10702035/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/lyncdigital"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                         </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h6>Links</h6>
-                    <ul class="list-unstyled links">
-                        <li><a href="capabilities.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Capabilities</a></li>
-                        <li><a href="../index.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Company</a></li>
-                        <li><a href="http://lyncschool.blogspot.in/"><i class="fa fa-angle-right" aria-hidden="true"></i>Blog</a></li>
-                        <li><a href="connect.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Connect</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h6>Contact Us</h6>
-                    <form action="https://script.google.com/macros/s/AKfycbwwop37t3G5wF8gI0hDJ_u2G7tacDIC4qQyEvNmmM26T8AnTpM/exec" method="post">
-                        <fieldset>
-                            <div class="form-group">
-                                <label>Name:</label>
-                                <input type="text" name="name" class="form-control" required placeholder="Enter Yout Name">
-                            </div>
-                            <div class="form-group">
-                                <label>Email address:</label>
-                                <input type="email" name="email" class="form-control" required placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <label>Message:</label>
-                                <input type="text" name="message" class="form-control" required placeholder="Message">
-                            </div>
-                            <button type="submit" class="btn btn-default">Send</button>
-                        </fieldset>
-                    </form>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6>Links</h6>
+                        <ul class="list-unstyled links">
+                            <li><a href="capabilities.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Capabilities</a></li>
+                            <li><a href="../index.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Company</a></li>
+                            <li><a href="http://lyncschool.blogspot.in/"><i class="fa fa-angle-right" aria-hidden="true"></i>Blog</a></li>
+                            <li><a href="connect.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Connect</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6>Contact Us</h6>
+                        <form action="../scripts/basicContactForm.php" method="post">
+                            <fieldset>
+                                <div class="form-group">
+                                    <label>Name:</label>
+                                    <input type="text" name="fname" class="form-control" required placeholder="Enter Yout Name">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email address:</label>
+                                    <input type="email" name="email" class="form-control" required placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label>Message:</label>
+                                    <input type="text" name="message" class="form-control" required placeholder="Message">
+                                </div>
+                                <button type="submit" class="btn btn-default">Send</button>
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <script type="text/javascript" src="../js/teamMemCarousel.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
