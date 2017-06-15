@@ -31,7 +31,7 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right black-main-menu text-center">
                     <li class="dropdown active">
-                        <a href="academy.html" class="dropdown-toggle current">Digital Academy</a>
+                        <a href="academy.html" class="dropdown-toggle current">Academy</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle">Company</a>
@@ -50,14 +50,19 @@
                     <li class="dropdown">
                         <a href="connect.html" class="dropdown-toggle vagdevimainmenu">CONNECT</a>
                     </li>
-                     <li class="dropdown social-icons">
+                    <li class="dropdown social-icons">
                         <ul id="social-icons-black">
-                            <li><a href="https://www.facebook.com/digitallync/"><img class="img-responsive icon-box19" src="../images/facebook-black.png"></a></li>
-                            <li><a href="https://twitter.com/digitallync/"><img class="img-responsive icon-box19" src="../images/twitter-black.png"></a></li>
-                            <li><a href="https://www.linkedin.com/company-beta/10702035/"><img class="img-responsive icon-box19" src="../images/linkedIn-black.png"></a></li>   
+                            <li>
+                                <a href="https://www.facebook.com/digitallync/"><img class="img-responsive icon-box19" src="../images/facebook-black.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/digitallync/"><img class="img-responsive icon-box19" src="../images/twitter-black.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company-beta/10702035/"><img class="img-responsive icon-box19" src="../images/linkedIn-black.png"></a>
+                            </li>
                         </ul>
                     </li>
-                    
                 </ul>
             </div>
             <!-- /.nav-collapse -->
@@ -85,7 +90,6 @@
             </div>
         </div>
     </section>
-   
     <section class="section-padding program-block">
         <div class="container program-syllabus" id="style-1">
             <div class="container programs">
@@ -97,7 +101,6 @@
                     <div class="col-md-9 cirricullam-heading">
                         <h6>Module 1</h6>
                         <p>CSS in Context</p>
-                        
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -107,7 +110,6 @@
                     <div class="col-md-9 cirricullam-heading">
                         <h6>Module 2</h6>
                         <p>Using the CSS Selectors</p>
-                        
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -126,7 +128,6 @@
                     <div class="col-md-9 cirricullam-heading">
                         <h6>Module 4 </h6>
                         <p>Working with Text</p>
-                        
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -136,7 +137,6 @@
                     <div class="col-md-9 cirricullam-heading">
                         <h6>Module 5 </h6>
                         <p>Working with the Box Model</p>
-                        
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -146,7 +146,6 @@
                     <div class="col-md-9 cirricullam-heading">
                         <h6>Module 6 </h6>
                         <p>Margin</p>
-                        
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -156,7 +155,6 @@
                     <div class="col-md-9 cirricullam-heading">
                         <h6>Module 7 </h6>
                         <p>Padding</p>
-                        
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -166,7 +164,6 @@
                     <div class="col-md-9 cirricullam-heading">
                         <h6>Module 8 </h6>
                         <p>Border</p>
-                        
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -176,7 +173,6 @@
                     <div class="col-md-9 cirricullam-heading">
                         <h6>Module 9 </h6>
                         <p>Creating Layouts (Floats, Positions)</p>
-                        
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -186,7 +182,6 @@
                     <div class="col-md-9 cirricullam-heading">
                         <h6>Module 10 </h6>
                         <p>Web fonts and external fonts</p>
-                        
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -196,7 +191,6 @@
                     <div class="col-md-9 cirricullam-heading">
                         <h6>Module 11 </h6>
                         <p>Adding background</p>
-                        
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -208,11 +202,10 @@
                         <p>Other CSS Properties and Features</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-     <section class="section-padding">
+    <section class="section-padding">
         <div class="row">
             <div class="btn-download-Curriculum">
                 <a data-toggle="modal" data-target="#myModal" class="pointer">Download Curriculum</a>
@@ -222,23 +215,21 @@
                     <!-- Modal content-->
                     <div class="modal-content">
                         <div class="modal-body" style="overflow: hidden;">
-                            <form action="../scripts/basicContactForm.php" method="post">
+                            <form action="../scripts/downloadCurriculamForm.php" method="post">
                                 <div class="col-md-12 col-sm-12 ">
                                     <div class="form-group col-md-12 col-sm-6">
                                         <label for="name">Name* </label>
-                                        <input type="text" class="form-control " id="name" required>
+                                        <input type="text" class="form-control " id="name" name="fname" required>
                                     </div>
                                     <div class="form-group col-md-12 col-sm-6">
                                         <label for="email">Email*</label>
-                                        <input type="email" class="form-control " id="email" required>
+                                        <input type="email" class="form-control " id="email" name="email" required>
                                     </div>
                                     <div class="form-group col-md-12 col-sm-6">
                                         <label for="mobile">Mobile Number</label>
-                                        <input type="number" class="form-control " id="mobile" required>
+                                        <input type="text" class="form-control " id="mobile" required>
                                         <div class="col-md-12 text-center">
-                                            <a href="https://www.google.co.in/">
-                                                <button type="submit" id="download" class="btn btn-warning">Download</button>
-                                            </a>
+                                            <button type="submit" id="download" name="mobile" class="btn btn-warning">Download</button>
                                         </div>
                                     </div>
                                 </div>
@@ -318,7 +309,6 @@
             </div>
         </div>
     </div>
-   
     <script>
     </script>
     <script type="text/javascript" src="../js/teamMemCarousel.js"></script>

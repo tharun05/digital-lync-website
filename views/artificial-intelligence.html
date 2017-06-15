@@ -52,9 +52,15 @@
                     </li>
                     <li class="dropdown social-icons">
                         <ul id="social-icons-black">
-                            <li><a href="https://www.facebook.com/digitallync/"><img class="img-responsive icon-box19" src="../images/facebook-black.png"></a></li>
-                            <li><a href="https://twitter.com/digitallync/"><img class="img-responsive icon-box19" src="../images/twitter-black.png"></a></li>
-                            <li><a href="https://www.linkedin.com/company-beta/10702035/"><img class="img-responsive icon-box19" src="../images/linkedIn-black.png"></a></li>   
+                            <li>
+                                <a href="https://www.facebook.com/digitallync/"><img class="img-responsive icon-box19" src="../images/facebook-black.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/digitallync/"><img class="img-responsive icon-box19" src="../images/twitter-black.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company-beta/10702035/"><img class="img-responsive icon-box19" src="../images/linkedIn-black.png"></a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -72,8 +78,7 @@
         <div class="container">
             <div class="row">
                 <h6 class="pull-left">What is Artificial Intelligence ?</h6>
-                <p class="pull-left">Machines have been seen taking over the world since the evolution of NexGen technologies like AI and Machine Learning.
-                This could be a good start for the graduates who opt to learn and build the Next Generation ruled by Machines. One need to have a extensive knowledge on Mathematics , Algorithms , Machine Memory management any High level language decorates the pre - requisites.</p>
+                <p class="pull-left">Machines have been seen taking over the world since the evolution of NexGen technologies like AI and Machine Learning. This could be a good start for the graduates who opt to learn and build the Next Generation ruled by Machines. One need to have a extensive knowledge on Mathematics , Algorithms , Machine Memory management any High level language decorates the pre - requisites.</p>
             </div>
         </div>
     </section>
@@ -122,23 +127,21 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-body" style="overflow: hidden;">
-                            <form action="../scripts/basicContactForm.php" method="post">
+                            <form action="../scripts/downloadCurriculamForm.php" method="post">
                                 <div class="col-md-12 col-sm-12 ">
                                     <div class="form-group col-md-12 col-sm-6">
                                         <label for="name">Name* </label>
-                                        <input type="text" class="form-control " id="name" required>
+                                        <input type="text" class="form-control " id="name" name="fname" required>
                                     </div>
                                     <div class="form-group col-md-12 col-sm-6">
                                         <label for="email">Email*</label>
-                                        <input type="email" class="form-control " id="email" required>
+                                        <input type="email" class="form-control " id="email" name="email" required>
                                     </div>
                                     <div class="form-group col-md-12 col-sm-6">
                                         <label for="mobile">Mobile Number</label>
-                                        <input type="number" class="form-control " id="mobile" required>
+                                        <input type="text" class="form-control " id="mobile" required>
                                         <div class="col-md-12 text-center">
-                                            <a href="https://www.google.co.in/">
-                                                <button type="submit" id="download" class="btn btn-warning">Download</button>
-                                            </a>
+                                            <button type="submit" id="download" name="mobile" class="btn btn-warning">Download</button>
                                         </div>
                                     </div>
                                 </div>
