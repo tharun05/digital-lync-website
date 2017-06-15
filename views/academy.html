@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Academy:Digital-lync</title>
+    <title>Academy | Digital-lync</title>
     <!-- Bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right black-main-menu text-center">
                     <li class="dropdown active">
-                        <a href="digital-academy.html" class="dropdown-toggle current">Academy</a>
+                        <a href="academy.html" class="dropdown-toggle current">Academy</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company</a>
@@ -49,6 +49,19 @@
                     </li>
                     <li class="dropdown">
                         <a href="connect.html" class="dropdown-toggle vagdevimainmenu">CONNECT</a>
+                    </li>
+                    <li class="dropdown social-icons">
+                        <ul id="social-icons-black">
+                            <li>
+                                <a href=""><img class="img-responsive" src="../images/facebook-black.png"></a>
+                            </li>
+                            <li>
+                                <a href=""><img class="img-responsive" src="../images/twitter-black.png"></a>
+                            </li>
+                            <li>
+                                <a href=""><img class="img-responsive" src="../images/linkedIn-black.png"></a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -75,13 +88,14 @@
                                 <a href="devOps.html">
                                     <article class="post wow animated fadeInUp icon-box19" data-wow-delay=".35s">
                                         <div class="post-thumbnail">
-                                            <img src="../images/course1.png" alt="post image" class="img-responsive">
+                                            <img src="../images/devops.png" alt="post image" class="img-responsive">
                                         </div>
                                         <!-- /.post-thumbnail -->
                                         <div class="post-content">
                                             <h4 class="entry-title course-title"><a href="devOps.html">Devops</a></h4>
-                                            <img src="../images/devops-courses.png" style="width:200px; height: 40px;">
-                                            <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/devops-icon.png">
                                         </div>
                                         <!-- /.post-content -->
                                     </article>
@@ -96,10 +110,12 @@
                                         </div>
                                         <!-- /.post-thumbnail -->
                                         <div class="post-content">
-                                            <h4 class="entry-title course-title"><a href="mean-stack-development.html">Full Stack Development</a></h4>
-                                            <img src="../images/mean-courses.png" style="width:200px; height: 40px;">
+                                            <h4 class="entry-title course-title"><a href="Full-Stack-development.html">Full Stack Development</a></h4>
                                             <!-- /.entry-title -->
                                             <!-- /.entry-content -->
+                                        </div>
+                                        <div class="course-icon">
+                                            <img src="../images/full-stack-icon.png">
                                         </div>
                                         <!-- /.post-content -->
                                     </article>
@@ -107,16 +123,18 @@
                                 <!-- /.type-post -->
                             </div>
                             <div class="col-md-4 padding20">
-                                <a href="visualgraphics.html">
+                                <a href="visualdesign.html">
                                     <article class="post wow animated fadeInUp icon-box19" data-wow-delay=".75s">
                                         <div class="post-thumbnail">
-                                            <img src="../images/course3.png" alt="post image" class="img-responsive">
+                                            <img src="../images/visual-design.png" alt="post image" class="img-responsive">
                                         </div>
                                         <!-- /.post-thumbnail -->
                                         <div class="post-content">
-                                            <h4 class="entry-title course-title"><a href="visualgraphics.html">Visual Design</a></h4>
-                                            <img src="../images/visual-design.png" style="width:200px; height: 40px;">
+                                            <h4 class="entry-title course-title"><a href="visualdesign.html">Visual Design</a></h4>
                                             <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/visual-design-icon.png">
                                         </div>
                                         <!-- /.post-content -->
                                     </article>
@@ -132,8 +150,10 @@
                                         <!-- /.post-thumbnail -->
                                         <div class="post-content">
                                             <h4 class="entry-title course-title"><a href="python.html">Python</a></h4>
-                                            <img src="../images/python.png" style="width:200px; height: 40px;">
                                             <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/python-icon.png">
                                         </div>
                                         <!-- /.post-content -->
                                     </article>
@@ -149,9 +169,11 @@
                                         <!-- /.post-thumbnail -->
                                         <div class="post-content">
                                             <h4 class="entry-title course-title"><a href="game-development.html">Game Development</a></h4>
-                                            <img src="../images/gaming-courses.png" style="width:200px; height: 40px;">
                                             <!-- /.entry-title -->
                                             <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/game-icon.png">
                                         </div>
                                         <!-- /.post-content -->
                                     </article>
@@ -159,31 +181,37 @@
                                 <!-- /.type-post -->
                             </div>
                             <div class="col-md-4 padding20">
-                                <article class="post wow animated fadeInUp icon-box19" data-wow-delay=".75s">
-                                    <div class="post-thumbnail">
-                                        <img src="../images/course3.png" alt="post image" class="img-responsive">
-                                    </div>
-                                    <!-- /.post-thumbnail -->
-                                    <div class="post-content">
-                                        <h4 class="entry-title course-title"><a href="#">Digital Marketing</a></h4>
-                                        <img src="../images/devops-courses.png" style="width:200px; height: 40px;">
-                                        <!-- /.entry-content -->
-                                    </div>
-                                    <!-- /.post-content -->
-                                </article>
+                                <a href="game-development.html">
+                                    <article class="post wow animated fadeInUp icon-box19" data-wow-delay=".75s">
+                                        <div class="post-thumbnail">
+                                            <img src="../images/course3.png" alt="post image" class="img-responsive">
+                                        </div>
+                                        <!-- /.post-thumbnail -->
+                                        <div class="post-content">
+                                            <h4 class="entry-title course-title"><a href="#">Digital Marketing</a></h4>
+                                            <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/digital-marketing-icon.png">
+                                        </div>
+                                        <!-- /.post-content -->
+                                    </article>
+                                </a>
                                 <!-- /.type-post -->
                             </div>
                             <div class="col-md-4 padding20">
-                                <a href="front-end-development.html">
+                                <a href="artificial-intelligence.html">
                                     <article class="post wow animated fadeInUp icon-box19" data-wow-delay=".35s">
                                         <div class="post-thumbnail">
                                             <img src="../images/course1.png" alt="post image" class="img-responsive">
                                         </div>
                                         <!-- /.post-thumbnail -->
                                         <div class="post-content">
-                                            <h4 class="entry-title course-title"><a href="front-end-development.html">Front End Developement</a></h4>
-                                            <img src="../images/devops-courses.png" style="width:200px; height: 40px;">
+                                            <h4 class="entry-title course-title"><a href="artificial-intelligence.html">Artificial Intelligence</a></h4>
                                             <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/ai-icon.png">
                                         </div>
                                         <!-- /.post-content -->
                                     </article>
@@ -199,9 +227,11 @@
                                         <!-- /.post-thumbnail -->
                                         <div class="post-content">
                                             <h4 class="entry-title course-title"><a href="mobileDevelopment">Mobile Development</a></h4>
-                                            <img src="../images/devops-courses.png" style="width:200px; height: 40px;">
                                             <!-- /.entry-title -->
                                             <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/mobile-icon.png">
                                         </div>
                                         <!-- /.post-content -->
                                     </article>
@@ -209,18 +239,83 @@
                                 <!-- /.type-post -->
                             </div>
                             <div class="col-md-4 padding20">
-                                <article class="post wow animated fadeInUp icon-box19" data-wow-delay=".75s">
-                                    <div class="post-thumbnail">
-                                        <img src="../images/course3.png" alt="post image" class="img-responsive">
-                                    </div>
-                                    <!-- /.post-thumbnail -->
-                                    <div class="post-content">
-                                        <h4 class="entry-title course-title"><a href="mobileDevelopment.html">Mobile Development</a></h4>
-                                        <img src="../images/devops-courses.png" style="width:200px; height: 40px;">
-                                        <!-- /.entry-content -->
-                                    </div>
-                                    <!-- /.post-content -->
-                                </article>
+                                <a href="analytics.html">
+                                    <article class="post wow animated fadeInUp icon-box19" data-wow-delay=".55s">
+                                        <div class="post-thumbnail">
+                                            <img src="../images/course2.png" alt="post image" class="img-responsive">
+                                        </div>
+                                        <!-- /.post-thumbnail -->
+                                        <div class="post-content">
+                                            <h4 class="entry-title course-title"><a href="analytics.html">Analytics</a></h4>
+                                            <!-- /.entry-title -->
+                                            <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/analytics-icon.png">
+                                        </div>
+                                        <!-- /.post-content -->
+                                    </article>
+                                </a>
+                                <!-- /.type-post -->
+                            </div>
+                            <div class="col-md-4 padding20">
+                                <a href="machine-learning.html">
+                                    <article class="post wow animated fadeInUp icon-box19" data-wow-delay=".55s">
+                                        <div class="post-thumbnail">
+                                            <img src="../images/course2.png" alt="post image" class="img-responsive">
+                                        </div>
+                                        <!-- /.post-thumbnail -->
+                                        <div class="post-content">
+                                            <h4 class="entry-title course-title"><a href="machine-learning.html">Machine Learning</a></h4>
+                                            <!-- /.entry-title -->
+                                            <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/machine-learning-icon.png">
+                                        </div>
+                                        <!-- /.post-content -->
+                                    </article>
+                                </a>
+                                <!-- /.type-post -->
+                            </div>
+                            <div class="col-md-4 padding20">
+                                <a href="datasciences.html">
+                                    <article class="post wow animated fadeInUp icon-box19" data-wow-delay=".55s">
+                                        <div class="post-thumbnail">
+                                            <img src="../images/course2.png" alt="post image" class="img-responsive">
+                                        </div>
+                                        <!-- /.post-thumbnail -->
+                                        <div class="post-content">
+                                            <h4 class="entry-title course-title"><a href="datascience-course.html">Data Sciences</a></h4>
+                                            <!-- /.entry-title -->
+                                            <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/datascience-icon.png">
+                                        </div>
+                                        <!-- /.post-content -->
+                                    </article>
+                                </a>
+                                <!-- /.type-post -->
+                            </div>
+                            <div class="col-md-4 padding20">
+                                <a href="blockchain.html">
+                                    <article class="post wow animated fadeInUp icon-box19" data-wow-delay=".55s">
+                                        <div class="post-thumbnail">
+                                            <img src="../images/course2.png" alt="post image" class="img-responsive">
+                                        </div>
+                                        <!-- /.post-thumbnail -->
+                                        <div class="post-content">
+                                            <h4 class="entry-title course-title"><a href="blockchain.html">Blockchain</a></h4>
+                                            <!-- /.entry-title -->
+                                            <!-- /.entry-content -->
+                                        </div>
+                                        <div class="post-content course-icon">
+                                            <img src="../images/blockchain-icon.png">
+                                        </div>
+                                        <!-- /.post-content -->
+                                    </article>
+                                </a>
                                 <!-- /.type-post -->
                             </div>
                         </div>
@@ -254,7 +349,7 @@
                                 </ul>
                                 <br>
                                 <div class="apply-button blue-background">
-                                    <a href="#" class="btn btn-secondary">Apply now</a>
+                                    <a href="connect.html" class="btn btn-secondary">Apply now</a>
                                 </div>
                             </div>
                         </div>
@@ -275,7 +370,7 @@
                                 </ul>
                                 <br>
                                 <div class="apply-button yellow-background">
-                                    <a href="#" class="btn btn-secondary">Apply now</a>
+                                    <a href="connect.html" class="btn btn-secondary">Apply now</a>
                                 </div>
                             </div>
                         </div>
@@ -296,7 +391,7 @@
                                 </ul>
                                 <br>
                                 <div class="apply-button red-background">
-                                    <a href="#" class="btn btn-secondary">Apply now</a>
+                                    <a href="connect.html" class="btn btn-secondary">Apply now</a>
                                 </div>
                             </div>
                         </div>

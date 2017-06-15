@@ -22,9 +22,13 @@ body {
 
 
 /*--------------- wrapper --------------------*/
-
 .black-main-menu li a {
     color: black !important;
+    margin-top: 10px;
+}
+.main-menu li a {
+    font-size: 14px !important;
+    margin-top: 8px;
 }
 
 .wrapper {
@@ -256,9 +260,11 @@ a {
 }
 
 .navbar-container {
-    padding: 20px 0 20px 0;
+    padding: 10px 0 10px 0;
 }
-
+.home-navbar-container{
+    padding: 20px 0px 20px 0px;
+}
 .navbar.navbar-fixed-top.fixed-theme {
     background-color: white !important;
     box-shadow: 0 0 5px rgba(0, 0, 0, .8);
@@ -297,6 +303,8 @@ a {
 .nav>li>a {
     color: white;
     margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 17px;
 }
 
 .fixed-theme .navbar-collapse ul li a {
@@ -1730,4 +1738,22 @@ input {
 .course-banner {
     color: white !important;
     padding: 100px;
+}
+.social-icons ul li {
+    float: left;
+    padding: 0px 15px;
+}
+.social-icons ul li img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.social-icons {
+    text-align: center;
+}
+.course-icon {
+    height: 80px;
+}
+.course-icon img{
+    height: 35px;
 }

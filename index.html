@@ -18,7 +18,7 @@
 
 <body>
     <nav id="header" class="navbar navbar-fixed-top nv-top">
-        <div id="header-container" class="navbar-container">
+        <div id="header-container" class="navbar-container home-navbar-container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -50,6 +50,20 @@
                     </li>
                     <li class="dropdown">
                         <a href="views/connect.html" class="dropdown-toggle vagdevimainmenu">CONNECT</a>
+                    </li>
+                    <li  class="dropdown social-icons">
+                        <ul id="social-icons-white">
+                            <li><a href=""><img class="img-responsive icon-box19" src="images/facebook.png"></a></li>
+                            <li><a href=""><img class="img-responsive icon-box19" src="images/twitter.png"></a></li>
+                            <li><a href=""><img class="img-responsive icon-box19" src="images/linkedin.png"></a></li>   
+                        </ul>
+                    </li>
+                    <li class="dropdown social-icons">
+                        <ul id="social-icons-black">
+                            <li><a href=""><img class="img-responsive icon-box19" src="images/facebook-black.png"></a></li>
+                            <li><a href=""><img class="img-responsive icon-box19" src="images/twitter-black.png"></a></li>
+                            <li><a href=""><img class="img-responsive icon-box19" src="images/linkedIn-black.png"></a></li>   
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -102,7 +116,7 @@
                 <div class="slide-text slide_style_center animated zoomIn">
                     <h1 class="animated bounceInDown">INCUBATION</h1>
                     <div class="slider-button bgcollab animated bounceInUp">
-                        <a class="btn more " href="">Our Collab</a>
+                        <a class="btn more " href="views/collab.html">Our Collab</a>
                     </div>
                 </div>
             </div>
@@ -342,11 +356,16 @@ ion-top -->
     <script>
     $(document).ready(function() {
         $('#brand-when-scroll').addClass('display-none');
+        $('#social-icons-black').addClass('display-none');
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
+                $('#social-icons-white').addClass('display-none');
+                $('#social-icons-black').removeClass('display-none');
                 $('#brand').addClass('display-none');
                 $('#brand-when-scroll').removeClass('display-none');
             } else {
+                $('#social-icons-white').removeClass('display-none');
+                $('#social-icons-black').addClass('display-none');
                 $('#brand').removeClass('display-none');
                 $('#brand-when-scroll').addClass('display-none');
             }
