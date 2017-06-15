@@ -31,14 +31,14 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right black-main-menu text-center">
                     <li class="dropdown active">
-                        <a href="academy.html" class="dropdown-toggle current">Digital Academy</a>
+                        <a href="academy.html" class="dropdown-toggle current">Academy</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle">Company</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company</a>
                         <ul class="dropdown-menu" id="hoverclr">
                             <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="collab.html">Digital Collab Us</a></li>
-                            <li><a href="products.html"> Products</a></li>
+                            <li><a href="collab.html">Digital Collab</a></li>
+                            <li><a href="product.html"> Products</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -99,8 +99,8 @@
                         <img src="../images/intro-to-programming@3x.png">
                     </div>
                     <div class="col-md-9 cirricullam-heading">
-                        <h6>Module1</h6>
-                        <p>System Structure of Augmented Reality</p>
+                        <h6>Module - 1</h6>
+                        <p>Introduction to vagrant ​</p>
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -108,8 +108,8 @@
                         <img src="../images/intro-to-programming@3x.png">
                     </div>
                     <div class="col-md-9 cirricullam-heading">
-                        <h6>Module2</h6>
-                        <p>Key Technology in AR</p>
+                        <h6>Module - 2</h6>
+                        <p>Vagrant Terminologies </p>
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -117,8 +117,8 @@
                         <img src="../images/intro-to-programming@3x.png">
                     </div>
                     <div class="col-md-9 cirricullam-heading">
-                        <h6>Module3</h6>
-                        <p>General solution for calculating</p>
+                        <h6>Module - 3</h6>
+                        <p>Vagrant System & Commands ​</p>
                     </div>
                 </div>
                 <div class="row course-padding shadow">
@@ -126,17 +126,8 @@
                         <img src="../images/intro-to-programming@3x.png">
                     </div>
                     <div class="col-md-9 cirricullam-heading">
-                        <h6>Module4</h6>
-                        <p>geometric & illumination consistency in</p>
-                    </div>
-                </div>
-                <div class="row course-padding shadow">
-                    <div class="col-md-3">
-                        <img src="../images/intro-to-programming@3x.png">
-                    </div>
-                    <div class="col-md-9 cirricullam-heading">
-                        <h6>Module5</h6>
-                        <p>the augmented environment</p>
+                        <h6>Module - 4</h6>
+                        <p>Vagrant Plugins & Provisions</p>
                     </div>
                 </div>
             </div>
@@ -145,7 +136,35 @@
     <section class="section-padding">
         <div class="row">
             <div class="btn-download-Curriculum">
-                <a href="#">Download Curricullam</a>
+                <a data-toggle="modal" data-target="#myModal" class="pointer">Download Curriculum</a>
+            </div>
+            <div id="myModal" class="modal animated fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body" style="overflow: hidden;">
+                            <form action="../scripts/downloadCurriculamForm.php" method="post">
+                                <div class="col-md-12 col-sm-12 ">
+                                    <div class="form-group col-md-12 col-sm-6">
+                                        <label for="name">Name* </label>
+                                        <input type="text" class="form-control " id="name" name="fname" required>
+                                    </div>
+                                    <div class="form-group col-md-12 col-sm-6">
+                                        <label for="email">Email*</label>
+                                        <input type="email" class="form-control " id="email" name="email" required>
+                                    </div>
+                                    <div class="form-group col-md-12 col-sm-6">
+                                        <label for="mobile">Mobile Number</label>
+                                        <input type="text" class="form-control " id="mobile" required>
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" id="download" name="mobile" class="btn btn-warning">Download</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
