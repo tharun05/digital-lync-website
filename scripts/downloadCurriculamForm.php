@@ -1,6 +1,6 @@
 <?php
     if (isset($_POST['submit'])) {
-        $sname = $_POST['sname'];
+        $fname = $_POST['fname'];
         $mobile_form = $_POST['mobile'];
         $email_form = $_POST['email'];     
         $mobile = preg_match("/^[0-9\-]|[\+0-9]|[0-9\s]|[0-9()]*$/", $mobile_form)?$mobile_form:"invalid Mobile";
@@ -15,7 +15,7 @@
                 " Email of lead is : ". $email."\r\n".
                  "Mobile number of lead is : ".$mobile;
             @mail($to,$subject,$str,$txt);
-            header('location:http:url=../views/curriculum.html"');
+            header('location:http:../views/curriculum.html');
             /*header( "refresh:2;url=../views/curriculum.html" );*/
             /*echo "<h1>Thank you...! we contact you soon</h1>";*/
             }
