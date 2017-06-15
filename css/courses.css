@@ -118,8 +118,8 @@ h6 {
     text-decoration: none;
 }
 
-#courses-logoBrand-black {
-    
+#logoBrand-black {
+    height: 47px;
 }
 
 .cap-list>li>a:focus,
@@ -350,7 +350,7 @@ hr{
     text-decoration: none;
 }
 
-#courses-logoBrand-black {
+#logoBrand-black {
 
 }
 .course-heading{

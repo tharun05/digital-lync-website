@@ -129,10 +129,7 @@
 .digital-academy ul>li>a{
     color: black;
 }
-#academic-logoBrand-black{
-    width: 159px;
-    height: 60px !important;
-}
+
 .nav-below{
 	margin-top: 50px;
 	padding: 25px;
@@ -140,9 +137,9 @@
 .padding20{
 	padding: 20px
 }
-.academic-logoBrand-black {
-    width: 169px;
-    height: 60px !important
+
+.logoBrand-black{
+    height: 47px;
 }
 /* 6 ------- Subscribe Section Styles ---------*/
 

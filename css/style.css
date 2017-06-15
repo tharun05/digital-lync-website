@@ -340,8 +340,12 @@ a {
 }
 
 #logoBrand-black {
-    height: 53px;
+    height: 47px !important;
     width: 133px;
+}
+#index-logoBrand-black{
+    height: 44px;
+    margin-top: 10px;
 }
 
 #brand1 img {
@@ -1757,6 +1761,6 @@ input {
 .course-icon img{
     height: 35px;
 }
-#courses-logoBrand-black, #logoBrand-black, #academic-logoBrand-black{
-    margin-top: 6px;
+#logoBrand-black, #logoBrand-black, #logoBrand-black{
+    margin-top: 10px;
 }
