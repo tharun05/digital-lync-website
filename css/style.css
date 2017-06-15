@@ -1757,3 +1757,6 @@ input {
 .course-icon img{
     height: 35px;
 }
+#courses-logoBrand-black, #logoBrand-black, #academic-logoBrand-black{
+    margin-top: 6px;
+}
